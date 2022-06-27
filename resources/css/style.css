@@ -1,0 +1,351 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    color: white;
+    
+  }
+
+  * {
+    box-sizing: border-box;
+
+  }
+
+  h2, h4, h5, h6, p {
+    color: #4A4A4A;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  #sectionOne, #sectionTwo, #sectionThree, #sectionFour {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+/* NAVBAR START */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.topLogoImageAndName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    height: 32px;
+    padding-left: 24px;
+
+}
+
+.logoColmar, .logoAcademy {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logoColmar {
+    color: black;
+    font-weight: bold;
+
+}
+
+.logoAcademy {
+    color: darkgray;
+    font-weight: 400;
+
+}
+
+.topNavMenu {
+    padding-right: 24px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.menuListItems {
+    display: flex;
+    align-items: right;
+    list-style: none;
+    float: right;
+    text-align: right;
+    color: black;
+    line-height: 1.5;
+
+}
+
+.menuListItems li {
+    padding-left: 16px;
+
+}
+
+.menuListItems a {
+    border-bottom: 1px solid #4A4A4A;
+    color: black;
+    padding-bottom: .25em;
+    text-decoration: none;
+
+}
+
+.menuListItems a:Hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+/* NAVBAR END */
+
+/* SECTION ONE START */
+
+#sectionOne {
+    width: 100%;
+    background-color: #d8d8d8;
+}
+
+.learnSomethingNewGray {
+    display: flex;
+    margin: 32px 24px;
+
+}
+
+.learnSomethingNewGray h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    max-width: fit-content;
+
+}
+
+.learnSomethingNewGray p {
+    font-size: initial;
+
+}
+
+.sectionOneImageBox {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionOneImage {
+    width: 100%;
+    height: auto;
+    padding-right: 24px;
+
+}
+
+.sectionOneTextBox {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionOneText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0;
+    padding: 32px 87px;
+
+}
+
+.sectionOneText h2 {
+    padding-bottom: 24px;
+    margin: 0;
+    font-size: 2em;
+}
+
+.sectionOneText p {
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+/* BUTTON START */
+
+#startButton {
+    background-color: #4A4A4A;
+    height: 45px;
+    width: 100%;
+    border: none;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: center;
+
+}
+
+/* BUTTON END */
+
+/* SECTION ONE END */
+
+/* SECTION TWO START*/
+
+#sectionTwo {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.keepPracticingWhite {
+    display: flex;
+    margin: 32px 24px;
+
+}
+
+.sectionTwoImageBox {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sectionTwoImage h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.sectionTwoImage {
+    width: 100%;
+    height: auto;
+    padding-right: 24px;
+
+}
+
+.sectionTwoText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding-right: 24px;
+
+}
+
+.sectionTwoText h2 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    margin: 0;
+    font-size: 2em;
+
+}
+
+.sectionTwoText h6 {
+    margin: 0;
+    padding-top: 32px;
+}
+
+.sectionTwoArticleBox {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.articleCardsList-container {
+    width: 100%;
+
+}
+
+.articleCard {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #d8d8d8;
+    margin-bottom: 2px;
+
+}
+
+.guest {
+    background-color: #d8d8d8;
+}
+
+.articleCard-ImageBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    width: 35%;
+
+}
+
+.cardImage {
+    margin: 16px;
+}
+
+.articleCard-information {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12px;
+    
+}
+
+.articleCard-information h4, p, a {
+    padding: 0;
+    margin: 0;
+
+}
+
+/* SECTION TWO END */
+
+/* SECTION THREE START */
+
+#sectionThree {
+    background-color: #d8d8d8;
+
+}
+
+.courseList h2 {
+    text-align: center;
+    font-size: 2em;
+    padding: 32px 0px;
+
+}
+
+.courseList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+
+}
+
+/* SECTION THREE END*/
+
+
+
+/* FOOTER START */
+
+#footer {
+    border-top: solid 1px lightgray;
+  }
+
+/* FOOTER END */
