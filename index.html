@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link href="/resources/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/resources/css/utilities.css" rel="stylesheet" type="text/css">
     <link rel="tab icon" href="/resources/images/favicon.ico">
     <link href="/resources/images/favicon.ico" rel="icon" type="image/png" sizes="16x16">
     <link href="/resources/images/favicon.ico" rel="icon" type="image/png" sizes="32x32">
@@ -10,46 +11,47 @@
     <meta name="description" content="Halldor Jonsson portfolio">
     <meta name="keywords" content="web, development, front, end, developer, portfolio, HTML, CSS, Javascript">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <header>
         <a href="#">
-        <div class="topLogoImageAndName">
-        <img src="/resources/images/ic-logo.svg">
-        <div class="logoColmar"><span>COLMAR</span></div>
-        <div class="logoAcademy">ACADEMY</div>
+        <div class="top-logo-image-and-name">
+        <img class="mainLogo" src="/resources/images/ic-logo.svg">
+        <div class="logo-colmar desktop-hidden"><span>COLMAR</span></div>
+        <div class="logo-academy desktop-hidden">ACADEMY</div>
     </div>
 </a>
-    <div class="topNavMenu">
-        <ul class="menuListItems">
-            <li><a href="#">On Campus</a></li>
-            <li><a href="#">Online</a></li>
-            <li><a href="#">For Companies</a></li>
-            <li><a href="#">Sign In</a></li>
+    <div class="top-nav-menu">
+        <ul class="menu-list-items">
+            <li><a href="#" class="desktop-hidden">On Campus</a><img class="menu-images" src="/resources/images/ic-on-campus.svg"></li>
+            <li><a href="#" class="desktop-hidden">Online</a><img class="menu-images" src="/resources/images/ic-online.svg"></li>
+            <li class="desktop-hidden"><a href="#">For Companies</a></li>
+            <li><a href="#" class="desktop-hidden">Sign In</a><img class="menu-images" src="resources/images/ic-login.svg"></li>
+            
         </ul>
     </div>
     </header>
-    <div id="sectionOne">
-    <section class="learnSomethingNewGray">
-        <div class="sectionOneImageBox">
-        <img class ="sectionOneImage" src="/resources/images/banner.jpg" alt="Two students with books">
+    <div id="section-one">
+    <section class="learn-something-new">
+        <div class="section-one-image-box">
+        <img class ="section-one-image" src="/resources/images/banner.jpg" alt="picture of two students with books">
     </div>
-    <div class="sectionOneTextBox">
-    <div class="sectionOneText">
+    <div class="section-one-text-box">
+    <div class="section-one-text">
         <h2>Learn something new everyday</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <button id="startButton">Start Here</button>
+        <button id="start-button">Start Here</button>
     </div>
 </div>
     </section>
 </div>
 
-<div id="sectionTwo">
-    <section class="keepPracticingWhite">
-        <div class="sectionTwoImageBox">
-        <img class="sectionTwoImage" src="/resources/images/information-main.jpg" alt="man outside reading book">
-    <div class="sectionTwoText">
+<div id="section-two">
+    <section class="keep-practicing-section">
+        <div class="section-two-image-box">
+        <img class="section-two-image" src="/resources/images/information-main.jpg" alt="picture of a man sitting outside reading book">
+    <div class="section-two-text">
         <h2>It doesn't hurt to keep practicing</h2>
         <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             Ex cupiditate voluptatibus distinctio provident rerum, 
@@ -59,36 +61,36 @@
         <h6>Emanuel, Sr Strategist at Hiring.com</h6>
     </div>
 </div>
-    <div class="sectionTwoArticleBox">
-        <div class="articleCardsList-container">
-            <div class="articleCard">
-                <div class="articleCard-ImageBox">
-                    <img class="cardImage" src="/resources/images/information-orientation.jpg" alt="Top down view of students walking on a path">
+    <div class="section-two-article-box">
+        <div class="article-card-list-container">
+            <div class="article-card">
+                <div class="article-card-image-box">
+                    <img class="card-image" src="/resources/images/information-orientation.jpg" alt="picture of top down view of students walking on a path">
                 </div>
-                <div class="articleCard-information">
+                <div class="article-card-information">
                     <h4>Orientation date</h4>
                     <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                    <a href="#" class="readMore">Read more</a>
+                    <a href="#" class="read-more">Read more</a>
                 </div>
             </div>
-            <div class="articleCard">
-                <div class="articleCard-ImageBox">
-                    <img class="cardImage" src="/resources/images/information-campus.jpg" alt="students sitting at a table">
+            <div class="article-card">
+                <div class="article-card-image-box">
+                    <img class="card-image" src="/resources/images/information-campus.jpg" alt="picture of students sitting at a table">
                 </div>
-                <div class="articleCard-information">
+                <div class="article-card-information">
                     <h4>Our Campus</h4>
                     <p>Find which campus is close by you</p>
-                    <a href="#" class="readMore">Read more</a>
+                    <a href="#" class="read-more">Read more</a>
                 </div>
             </div>
-            <div class="articleCard">
-                <div class="articleCard-ImageBox">
-                    <img class="cardImage" src="/resources/images/information-guest-lecture.jpg" alt="picture of Oliver Sack">
+            <div class="article-card">
+                <div class="article-card-image-box">
+                    <img class="card-image" src="/resources/images/information-guest-lecture.jpg" alt="picture of Oliver Sack">
                 </div>
-                <div class="articleCard-information">
+                <div class="article-card-information">
                     <h4>Our guest lecture</h4>
                     <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                    <a href="#" class="readMore">Read more</a>
+                    <a href="#" class="read-more">Read more</a>
                 </div>
             </div>
         </div>
@@ -96,44 +98,44 @@
     </section>
 </div>
 
-<div id="sectionThree">
-    <section class="courseListSection">
-        <div class="courseListTitle">
+<div id="section-three">
+    <section class="course-list-section">
+        <div class="course-list-title">
         <h2>Start Learning</h2>
     </div>
-    <div class="courseListContainer">
-    <div class="courseList">
-        <div class="courseCard">
-            <img src="/resources/images/course-software.jpg" alt=" two computer screens in a darkened room">
+    <div class="course-list-container">
+    <div class="course-list">
+        <div class="course-card">
+            <img src="/resources/images/course-software.jpg" alt="picture of two computer screens in a darkened room">
             <h4>Software Engineering</h4>
             <h5>COURSE</h5>
             <p>Web Development, Mobile Development, iOT, APIs</p>
         </div>
-        <div class="courseCard">
+        <div class="course-card">
             <img src="/resources/images/course-computer-art.jpg" alt="picture of a hand holding a phone while sitting at a coffee table">
             <h4>Computer Art</h4>
             <h5>COURSE</h5>
             <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
         </div>
-        <div class="courseCard">
+        <div class="course-card">
             <img src="/resources/images/course-design.jpg" alt="picture of someone holding an old style camera">
             <h4>Design</h4>
             <h5>COURSE</h5>
             <p>User Experience Design, User Research, Visual Design</p>
         </div>
-        <div class="courseCard">
+        <div class="course-card">
             <img src="/resources/images/course-data.jpg" alt="picture of laptop displaying graphs">
             <h4>Data</h4>
             <h5>COURSE</h5>
             <p>Data Science, Big Data, SQL, Data Visualization</p>
         </div>
-        <div class="courseCard">
+        <div class="course-card">
             <img src="/resources/images/course-business.jpg" alt="picture of chess pieces on a board">
             <h4>Business</h4>
             <h5>COURSE</h5>
             <p>Product Development, Business Development, Startup</p>
         </div>
-        <div class="courseCard">
+        <div class="course-card">
             <img src="/resources/images/course-marketing.jpg" alt="picture of someone checking messages on a smartwatch">
             <h4>Marketing</h4>
             <h5>COURSE</h5>
@@ -144,16 +146,16 @@
     </section>
 </div>
 
-<div id="sectionFour">
-    <div class="thesisExhibitTitle">
+<div id="section-four">
+    <div class="thesis-exhibit-title">
         <h2>Thesis Exhibit</h2>
     </div>
-    <section class="thesisExhibitSection">
+    <section class="thesis-exhibit-section">
         
     
-    <div class="sectionFourVideoBox">
+    <div class="section-four-video-box">
         <video id="video" src="/resources/videos/thesis.mp4" autoplay loop muted></video>
-        <div class=" sectionFourText">
+        <div class=" section-four-text">
         <h4>Reimagine urban</h4>
         <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Ab odit molestiae veritatis impedit eaque? Quia quaerat soluta,
@@ -161,21 +163,21 @@
              sed minima qui."</p>
             </div>
             </div>
-        <div class="articleCardList-container">
-            <div class="articleCard">
-                <div class="articleCard-ImageBox">
-                    <img class="cardImage" src="/resources/images/thesis-fisma.jpg" alt="picture of someone working on assorted papers with a smartphone">
+        <div class="article-card-list-container">
+            <div class="article-card">
+                <div class="article-card-image-box">
+                    <img class="card-image" src="/resources/images/thesis-fisma.jpg" alt="picture of someone working on assorted papers with a smartphone">
                 </div>
-                <div class="articleCard-information">
+                <div class="article-card-information">
                     <h4>Fisma: Design and Prototype</h4>
                     <p>Designer showcase of new prototype product</p>
                 </div>
             </div>
-            <div class="articleCard">
-                <div class="articleCard-ImageBox">
-                    <img class="cardImage" src="/resources/images/thesis-now-and-then.jpg" alt="picture of New York skyline">
+            <div class="article-card">
+                <div class="article-card-image-box">
+                    <img class="card-image" src="/resources/images/thesis-now-and-then.jpg" alt="picture of New York skyline">
                 </div>
-                <div class="articleCard-information">
+                <div class="article-card-information">
                     <h4>Now and then</h4>
                     <p>Research study about New York</p>
                 </div>
@@ -186,9 +188,9 @@
 </div>
     <footer>
         <div class="copyright">
-        <p>© 2016 Colmar Academy. All rights reserved</p>
+        <p>© 2022 Colmar Academy. All rights reserved</p>
     </div>
-        <div class="teesAndCees">
+        <div class="tees-and-cees">
         <a href="#">Terms</a>
         <a href="#" style="padding-left: 16px;">Privacy</a>
     

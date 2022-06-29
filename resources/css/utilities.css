@@ -1,0 +1,52 @@
+  .display-none {
+    display: none;
+
+  }
+
+  .display-block {
+    display: block;
+
+  }
+
+  .display-flex {
+    display: flex;
+
+  }
+
+/* TABLET AND BIGGER START */
+
+  @media (min-width: 640px) {
+    .tablet-display-none {
+        display: none;
+    }
+    
+    .tablet-display-block {
+        display: block;
+    }
+    
+    .tablet-display-flex {
+        display: flex;
+    }
+
+  }
+
+/* TABLET AND BIGGER END */
+
+/* DESKTOP AND BIGGER START */
+
+  @media (min-width: 1024px) {
+    .desktop-display-none {
+        display: none;
+    }
+    
+    .desktop-display-block {
+        display: block;
+    }
+    
+    .desktop-display-flex {
+        display: flex;
+    }
+    
+  }
+
+/* DESKTOP AND BIGGER END */

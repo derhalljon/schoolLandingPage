@@ -21,7 +21,7 @@
 
   }
 
-  #sectionOne, #sectionTwo, #sectionThree, #sectionFour {
+  #section-one, #section-two, #section-three, #section-four {
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -33,7 +33,7 @@
 
   }
   
-  .articleCard:hover {
+  .article-card:hover {
     background-color: #d8d8d8;
 
   }
@@ -52,7 +52,7 @@
 
   }
 
-  .topLogoImageAndName {
+  .top-logo-image-and-name {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -62,32 +62,32 @@
 
   }
 
-  .logoColmar, .logoAcademy {
+  .logo-colmar, .logo-academy {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 
   }
 
-  .logoColmar {
+  .logo-colmar {
     color: black;
     font-weight: bold;
 
   }
 
-  .logoAcademy {
+  .logo-academy {
     color: darkgray;
     font-weight: 400;
 
   }
 
-  .topNavMenu {
+  .top-nav-menu {
     padding-right: 24px;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
 
   }
 
-  .menuListItems {
+  .menu-list-items {
     display: flex;
     align-items: right;
     list-style: none;
@@ -98,12 +98,12 @@
 
   }
 
-  .menuListItems li {
+  .menu-list-items li {
     padding-left: 16px;
 
   }
 
-  .menuListItems a {
+  .menu-list-items a {
     border-bottom: 1px solid #4A4A4A;
     color: black;
     padding-bottom: .25em;
@@ -111,7 +111,7 @@
 
   }
 
-  .menuListItems a:Hover {
+  .menu-list-items a:Hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-position: bottom;
     background-repeat: repeat-x;
@@ -127,45 +127,45 @@
 
 /* SECTION ONE START */
 
-  #sectionOne {
+  #section-one {
     width: 100%;
     background-color: #d8d8d8;
 
   }
 
-  .learnSomethingNewGray {
+  .learn-something-new {
     display: flex;
     margin: 32px 24px;
 
   }
 
-  .learnSomethingNewGray h2 {
+  .learn-something-new h2 {
     font-size: 2.5rem;
     line-height: 2.5rem;
     max-width: fit-content;
 
   }
 
-  .learnSomethingNewGray p {
+  .learn-something-new p {
     font-size: initial;
 
   }
 
-  .sectionOneImageBox {
+  .section-one-image-box {
     width: 60%;
     display: flex;
     flex-direction: column;
 
   }
 
-  .sectionOneImage {
+  .section-one-image {
     width: 100%;
     height: auto;
     padding-right: 24px;
 
   }
 
-  .sectionOneTextBox {
+  .section-one-text-box {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -173,7 +173,7 @@
 
   }
 
-  .sectionOneText {
+  .section-one-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,14 +183,14 @@
 
   }
 
-  .sectionOneText h2 {
+  .section-one-text h2 {
     padding-bottom: 24px;
     margin: 0;
     font-size: 2em;
 
   }
 
-  .sectionOneText p {
+  .section-one-text p {
     margin: 0;
     padding-bottom: 24px;
 
@@ -198,7 +198,7 @@
 
 /* BUTTON START */
 
-  #startButton {
+  #start-button {
     background-color: #4A4A4A;
     height: 45px;
     width: 100%;
@@ -217,7 +217,7 @@
 
   }
 
-  #startButton:active {
+  #start-button:active {
     background: #929292;
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
        -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
@@ -232,40 +232,40 @@
 
 /* SECTION TWO START*/
 
-  #sectionTwo {
+  #section-two {
     width: 100%;
     background-color: #FFFFFF;
 
   }
 
-  .keepPracticingWhite {
+  .keep-practicing-section {
     display: flex;
     margin: 32px 24px;
 
   }
 
-  .sectionTwoImageBox {
+  .section-two-image-box {
     width: 60%;
     display: flex;
     flex-direction: column;
 
   }
 
-  .sectionTwoImage h2 {
+  .section-two-image h2 {
     padding: 0;
     margin: 0;
     font-weight: bold;
 
   }
 
-  .sectionTwoImage {
+  .section-two-image {
     width: 100%;
     height: auto;
     padding-right: 24px;
 
   }
 
-  .sectionTwoText {
+  .section-two-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -274,7 +274,7 @@
 
   }
 
-  .sectionTwoText h2 {
+  .section-two-text h2 {
     padding-top: 32px;
     padding-bottom: 24px;
     margin: 0;
@@ -282,25 +282,25 @@
 
   }
 
-  .sectionTwoText h6 {
+  .section-two-text h6 {
     margin: 0;
     padding-top: 32px;
 
   }
 
-  .sectionTwoArticleBox {
+  .section-two-article-box {
     width: 40%;
     display: flex;
     flex-direction: column;
 
   }
 
-  .articleCardsList-container {
+  .article-card-list-container {
     width: 100%;
 
   }
 
-  .articleCard {
+  .article-card {
     display: flex;
     flex-direction: row;
     border: solid 1px #d8d8d8;
@@ -308,7 +308,7 @@
 
   }
 
-  .articleCard-ImageBox {
+  .article-card-image-box {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -317,12 +317,12 @@
 
   }
 
-  .cardImage {
+  .card-image {
     margin: 16px;
 
   }
 
-  .articleCard-information {
+  .article-card-information {
     height: auto;
     display: flex;
     flex-direction: column;
@@ -331,7 +331,7 @@
     
   }
 
-  .articleCard-information h4, p, a {
+  .article-card-information h4, p, a {
     padding: 0;
     margin: 0;
 
@@ -341,26 +341,26 @@
 
 /* SECTION THREE START */
 
-  #sectionThree {
+  #section-three {
     width: 100%;
     background-color: #d8d8d8;
 
   }
 
-  .courseListTitle h2 {
+  .course-list-title h2 {
     text-align: center;
     font-size: 2em;
     padding: 32px 0px;
 
   }
 
-  .courseListContainer {
+  .course-list-container {
     width: 100%;
     padding: 0px 72px 32px;
     
   }
 
-  .courseList {
+  .course-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -369,12 +369,12 @@
 
   }
 
-  .courseList img {
+  .course-list img {
     width: 100%;
 
   }
 
-  .courseCard {
+  .course-card {
     background-color: white;
     --gap: 32px;
     width: calc((100% - 2*var(--gap)) / 3);
@@ -383,12 +383,12 @@
 
   }
 
-  .courseCard:hover {
+  .course-card:hover {
     transform: scale(1.05);
 
   }
 
-  .courseCard h4 {
+  .course-card h4 {
     font-weight: 900;
     padding-top: 16px;
     padding-left: 16px;
@@ -396,14 +396,14 @@
 
   }
 
-  .courseCard h5 {
+  .course-card h5 {
 padding-left: 16px;
 padding-top: 8px;
 font-weight: 100;
 
   }
 
-  .courseCard p {
+  .course-card p {
     padding: 8px 16px 24px;
     font-weight: 100;
 
@@ -413,19 +413,19 @@ font-weight: 100;
 
 /* SECTION FOUR START*/
 
-  #sectionFour {
+  #section-four {
     width: 100%;
     background-color: #FFFFFF;
 
   }
 
-  .thesisExhibitSection {
+  .thesis-exhibit-section {
     display: flex;
     margin: 0px 24px 5px;
 
   }
 
-  .thesisExhibitTitle {
+  .thesis-exhibit-title {
     text-align: center;
     font-size: 2em;
     padding: 32px 0px;
@@ -433,19 +433,19 @@ font-weight: 100;
 
   }
 
-  .sectionFourVideoBox {
+  .section-four-video-box {
     width: 60%;
     display: flex;
     flex-direction: column;
 
   }
 
-  .sectionFourVideoBox video {
+  .section-four-video-box video {
     padding-right: 24px;
 
   }
 
-  .sectionFourText {
+  .section-four-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -455,7 +455,7 @@ font-weight: 100;
 
   }
 
-  .sectionFourText h4 {
+  .section-four-text h4 {
     padding-top: 32px;
     padding-bottom: 24px;
     margin: 0;
@@ -490,7 +490,7 @@ font-weight: 100;
 
   }
 
-  .teesAndCees {
+  .tees-and-cees {
     padding-right: 16px;
     text-align: right;
     float: right;
@@ -501,5 +501,66 @@ font-weight: 100;
 
 /* FOOTER END */
 
-/* REACTIVE FOR SMALLER SCREENS */
+/* REACTIVE FOR DIFFERENT SCREENS */
 
+/* MOBILE START*/
+
+/* MOBILE TOP MENU START */
+@media only screen and (max-width: 767px) {
+    header {
+        display: flex;
+        
+    }
+    
+    .menu-list-items li {
+        padding-left: 56px;
+
+    }
+
+    
+    .desktop-hidden {
+        display: none;
+
+    }
+
+}
+
+/* MOBILE TOP MENU END */
+
+
+/* MOBILE SECTION ONE START */
+
+
+/* MOBILE SECTION ONE END */
+
+/* MOBILE END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  
+}
+/* TABLET END*/
+
+/* DESKTOP START*/
+@media screen and (min-width:1024px) {
+  .menu-images {
+    display: none;
+  }
+  
+}
+/* DESKTOP END */
