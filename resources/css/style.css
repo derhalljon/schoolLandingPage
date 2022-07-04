@@ -6,6 +6,7 @@
     font-weight: 400;
     line-height: 1.8;
     color: white;
+    width: 100%;
     
   }
 
@@ -24,7 +25,8 @@
   #section-one, #section-two, #section-three, #section-four {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    margin: auto;
+    
 
   }
 
@@ -98,6 +100,12 @@
 
   }
 
+  .menu-images {
+    height: 32px;
+    width: 27px;
+
+  }
+
   .menu-list-items li {
     padding-left: 16px;
 
@@ -111,7 +119,7 @@
 
   }
 
-  .menu-list-items a:Hover {
+  .menu-list-items a:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-position: bottom;
     background-repeat: repeat-x;
@@ -378,7 +386,6 @@
     background-color: white;
     --gap: 32px;
     width: calc((100% - 2*var(--gap)) / 3);
-
     transition: transform 300ms ease;
 
   }
@@ -397,9 +404,9 @@
   }
 
   .course-card h5 {
-padding-left: 16px;
-padding-top: 8px;
-font-weight: 100;
+    padding-left: 16px;
+    padding-top: 8px;
+    font-weight: 100;
 
   }
 
@@ -503,35 +510,337 @@ font-weight: 100;
 
 /* REACTIVE FOR DIFFERENT SCREENS */
 
-/* MOBILE START*/
+  @media (max-width: 600px) {
 
-/* MOBILE TOP MENU START */
-@media only screen and (max-width: 767px) {
-    header {
-        display: flex;
-        
+    #section-one, #section-two, #section-three, #section-four {
+      display: block;
+      flex-direction: row;
+      line-height: 1;
+      
+    }
+
+    .card-image {
+      display: none;
+
+    }
+
+    #video {
+      display: none;
+    }
+
+    
+
+  }
+
+  @media (min-width: 601px) {
+    .mobile-image {
+      display: none;
+
     }
     
-    .menu-list-items li {
-        padding-left: 56px;
+  }
+
+  @media (max-width: 600px) {
+    .article-card-list-container {
+      background-color: white;
 
     }
-
     
-    .desktop-hidden {
-        display: none;
+  }
 
-    }
+  @media (max-width: 600px) {
+    .course-list-container {
+      background-color: white;
+
+  }
+
+  .article-card:hover {
+    background-color: white;
+
+  }
 
 }
 
+
+/* MOBILE START*/
+
+/* MOBILE TOP MENU START */
+  @media only screen and (max-width: 767px) {
+    body {
+      display: block;
+      background-color: #fff;
+
+    }
+
+    img {
+      display: block;
+      width: 100%;
+        
+    }
+
+    header {
+      display: flex;
+          
+    }
+      
+    .menu-list-items li {
+      padding-left: 56px;
+
+    }
+
+      
+    .desktop-hidden {
+      display: none;
+
+    }
+
+    .hidden {
+      visibility: hidden;
+      position: absolute;
+
+    }
+
+  }
+
 /* MOBILE TOP MENU END */
 
+  @media (min-width: 601px) {
+
+  }
 
 /* MOBILE SECTION ONE START */
 
+@media only screen and (max-width: 767px) {
+
+  .learn-something-new {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .section-one-image-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .section-one-image {
+    width: 100%;
+    height: auto;
+    padding: 1px;
+
+  }
+
+  .section-one-text-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .section-one-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 32px 16px;
+  }
+
+
+}
 
 /* MOBILE SECTION ONE END */
+
+/* MOBILE SECTION TWO START - KEEP PRACTICING SECTION */
+
+  @media only screen and (max-width: 767px) {
+
+    .keep-practicing-section {
+      margin: 0;
+
+  }
+
+    .article-card-list-container {
+      width: 100vw;
+  
+  }
+
+  .hide-me {
+    display: none;
+  }
+
+    .article-card {
+      margin: 16px;
+      display: flex;
+      flex-direction: column;
+      border: none;
+
+  }
+
+    .article-card-image-box {
+      width: 100%;
+
+  }
+
+    .article-card-information {
+      line-height: 1;
+      
+  }
+
+    .article-card-information h4 {
+      padding-top: 16px;
+
+  }
+
+    .article-card-information p {
+      padding-top: 8px;
+      
+  }
+
+    .article-card-information a {
+      padding-top: 10px;
+      padding-bottom: 32px;
+
+  }
+
+    .section-two-image-box {
+      display: none;
+        
+  }
+
+    .card-image {
+      margin: 0;
+        
+  }
+
+}
+
+/* MOBILE SECTION TWO END - KEEP PRACTICING SECTION */
+
+/* MOBILE SECTION THREE START - START LEARNING SECTION */
+
+  @media only screen and (max-width: 767px) {
+
+    #section-three {
+      background-color: #fff;
+      border-top: 1px solid 
+      #d8d8d8;
+      border-bottom: 1px solid #d8d8d8;
+      margin-bottom: 32px;
+
+    }
+
+    .course-list-section {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+    }
+
+    .course-list-container {
+      padding: 0;
+      text-align: -webkit-center;
+      padding-bottom: 32px;
+
+    }
+
+    .course-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      gap: 0;
+      
+    }
+
+    .course-list-title h2 {
+      padding-bottom: 16px;
+
+    }
+
+    .course-card img, h5 {
+      display: none;
+
+    }
+
+    .course-card {
+      background-color: #d8d8d8;
+      width: 100%;
+      border-radius: 3px;
+      margin-bottom: 8px;
+      
+    }
+
+    .course-card h4 {
+      text-align: left;
+      padding-bottom: 16px;
+      padding-left: 16px;
+      font-size: 1.3em;
+      
+    }
+
+    .course-list-section p {
+      display: none;
+    }
+
+  }
+
+/* MOBILE SECTION THREE END - START LEARNING SECTION */
+
+/* MOBILE SECTION FOUR START - THESIS EXHIBIT */
+
+  @media only screen and (max-width: 767px) {
+  
+    #section-four {
+    height: auto;
+
+  }
+
+  .thesis-exhibit-title {
+    display: none;
+
+  }
+
+  .section-four-text {
+    display: none;
+
+  }
+
+  #section-four .article-card-information {
+    display: none;
+
+  }
+
+  .section-four-video-box {
+    width: 100%;
+    height: auto;
+    padding: 0;
+
+  }
+  
+  #video-mobile {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .thesis-exhibit-section {
+    padding: 0;
+    margin: 1px;
+
+  }
+
+}
+/* MOBILE SECTION FOUR END - THESIS EXHIBIT */
+
+
 
 /* MOBILE END */
 
@@ -551,16 +860,17 @@ font-weight: 100;
 
 
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width:1023px) {
-  
-}
+  @media screen and (min-width: 768px) and (max-width:1023px) {
+    
+  }
 /* TABLET END*/
 
 /* DESKTOP START*/
-@media screen and (min-width:1024px) {
-  .menu-images {
-    display: none;
+  @media screen and (min-width:1024px) {
+    .menu-images {
+      display: none;
+    }
+    
   }
-  
-}
 /* DESKTOP END */
+
